@@ -1,0 +1,140 @@
+.checkout-container{
+    background-color: #529499;
+    border-radius: 25px;
+    margin: 2% 5%;
+}
+
+.checkout-container h1{
+    color: #198496;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 0 3%;
+    padding-top: 2%;
+}
+
+.list{
+    font-family: "Poppins", sans-serif;
+    color: #198496;
+    margin: 3%;
+}
+
+#checkout, button[type="submit"]{
+    background-image: linear-gradient(319.49deg, #07c4c4 1.87%, #96cf9c 109.19%);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #a52e2e00;
+    margin: 0 3% 3% 3%;
+}
+
+#checkout:hover{
+    background-image: linear-gradient(319.49deg, #158a84 1.87%, #158a84 109.19%);
+}
+.payment-methods label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.payment-methods input[type="radio"] {
+    display: none;
+}
+
+.payment-methods label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #198496;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+
+.payment-methods input[type="radio"]:checked + label::before {
+    background-color: #198496;
+}
+
+.payment-methods label::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.payment-methods input[type="radio"]:checked + label::after {
+    display: block;
+}
+
+.PlaceOrder {
+    margin: 20px;
+    padding: 20px;
+    background-color: #529499;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #00000046;
+}
+.PlaceOrder h1 {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 10px 0;
+}
+.PlaceOrder hr {
+    border-color: #142a2e;
+    margin: 10px 0;
+}
+.PlaceOrder p {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+}
+.PlaceOrder label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000000;
+    position: relative;
+    cursor: pointer;
+}
+.PlaceOrder label::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.PlaceOrder input[type="radio"]:checked + label::after {
+    display: block;
+}
+.PlaceOrder button {
+    background-image: linear-gradient(319.49deg, #07c4c4 1.87%, #96cf9c 109.19%);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #a52e2e00;
+    margin: 10px 0;
+}
+.PlaceOrder button:hover {
+    background-image: linear-gradient(319.49deg, #158a84 1.87%, #158a84 109.19%);
+}
